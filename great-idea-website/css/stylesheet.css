@@ -13,8 +13,9 @@ body {
     margin: 5% 10%;
 }
 
-/* navigation bar */
+/* navigation */
 nav {
+    display: inline-block;
     padding: ;
     width: 100%;
 }
