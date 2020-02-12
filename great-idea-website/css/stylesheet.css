@@ -119,6 +119,10 @@ img.middle-img {
     width: 33%;
 }
 
+#information p {
+    font-family: 'Lemonada', cursive;
+    font-size: small;
+}
 
 /* footer */
 
