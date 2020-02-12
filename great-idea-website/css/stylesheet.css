@@ -16,7 +16,8 @@ body {
 /* navigation */
 nav {
     display: inline-block;
-    width: 100%;;
+    width: 100%;
+    padding-bottom: 5%;
 
 
 }
@@ -41,4 +42,31 @@ a {
     display:inline-block;
     width:60%;
     margin-left:15%;
+}
+
+
+/* introduction */
+
+#intro .intro-right {
+    display: inline-block;
+    width: 70%;
+}
+
+.intro-image {
+    display: inline-block;
+    width: 50%;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+button {
+    border: 1px black solid;
+    padding: 5px 4%;
+    margin: 0 0 10% 42%;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
 }
