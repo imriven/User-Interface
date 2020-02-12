@@ -16,9 +16,29 @@ body {
 /* navigation */
 nav {
     display: inline-block;
-    padding: ;
-    width: 100%;
+    width: 100%;;
+
+
 }
-.logo {
-    
+
+a {
+    text-decoration: none;
+    color: gray;
+    padding: 0 5%;
+}
+
+.nav-logo {
+    display:inline-block;
+    width: 12%;
+    margin-left: 12%;
+}
+
+.logo img{
+    max-width:100%;
+  }
+
+.links{
+    display:inline-block;
+    width:60%;
+    margin-left:15%;
 }
