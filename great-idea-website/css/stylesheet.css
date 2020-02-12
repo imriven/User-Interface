@@ -6,7 +6,7 @@
     margin: 0;
     max-width: 100%;
 
-    border: 1px solid gray;
+    border: 1px solid gray; 
 }
 
 body {
@@ -69,4 +69,27 @@ button {
     font-size: 1em;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
+}
+
+/* information */
+
+.middle-top {
+    border-top: 1px solid;
+}
+
+.features-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 40%;
+}
+.about-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 40%;
+    margin-left: 19.5%;
+}
+
+img.middle-img {
+    object-fit: fill;
+    width: 100%;
 }
