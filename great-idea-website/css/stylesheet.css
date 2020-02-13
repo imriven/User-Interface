@@ -1,0 +1,132 @@
+/* global */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+body {
+    margin: 5% 10%;
+}
+
+/* navigation */
+nav {
+    display: inline-block;
+    padding-bottom: 1%;
+    
+    overflow: hidden;
+    background-color: slateblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    left: 0%;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 5%;
+}
+
+.nav-logo {
+    display:inline-block;
+    width: 12%;
+    margin-left: 12%;
+}
+
+.logo img{
+    max-width:100%;
+  }
+
+.links{
+    display:inline-block;
+    width:60%;
+    margin-left:15%;
+}
+
+
+/* introduction */
+
+#intro .intro-right {
+    display: inline-block;
+    width: 70%;
+}
+
+.intro-image {
+    display: inline-block;
+    width: 50%;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+button {
+    border: 1px black solid;
+    padding: 5px 4%;
+    margin: 0 0 10% 42%;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+/* information */
+
+.middle-top {
+    border-top: 1px solid;
+}
+
+.features-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 40%;
+}
+.about-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 40%;
+    margin-left: 19.5%;
+}
+
+img.middle-img {
+    object-fit: fill;
+    width: 100%;
+}
+
+.middle-bottom {
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
+}
+
+.services-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 33%;
+}
+.product-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 33%;
+}
+.vision-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 33%;
+}
+
+#information p {
+    font-family: 'Lemonada', cursive;
+    font-size: small;
+}
+
+/* footer */
+
+footer {
+    margin: 10%;
+    text-align: center;
+}
